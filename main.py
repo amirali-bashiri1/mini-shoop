@@ -1,3 +1,4 @@
+
 from products import products
 
 
@@ -12,13 +13,17 @@ for item in products:
 
 
 product = input("Which product do you want? ")
+quantity = int(input("How many do you want? "))
+
 
 for item in products:
     if product.lower() == item["name"].lower():
-        print("Price:", item["price"], "$")
+        total_price = item["price"] * quantity
+
+        print("Total price:", total_price, "$")
 
         file = open("purchases.txt", "a")
-        file.write(f"{name} - {item["name"]} - {item["price"]}$\n")
+        file.write(f"{name} - {item['name']} - {quantity} - {total_price}$\n")
         file.close()
 
         print("Purchase saved")
