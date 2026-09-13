@@ -1,1 +1,6 @@
+#pycache ignore
 __pycache__/
+# all file .log
+*.log
+# file .env
+.env
