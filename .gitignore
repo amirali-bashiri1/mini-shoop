@@ -2,5 +2,5 @@
 __pycache__/
 # all file .log
 *.log
-# file .env
+# file.env
 .env
