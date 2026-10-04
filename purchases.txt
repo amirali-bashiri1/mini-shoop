@@ -3,3 +3,7 @@ amirali - Phone - 500$
 amir - Phone - 500$
 amirali - Phone - 2 - 1000$
 amirali - Phone - 2 - 1000$
+amir - Phone - 2 - 1000$
+a - Keyboard - 10 - 300$
+amir - Keyboard - 2 - 60$
+amirali - Keyboard - 2 - 60$
